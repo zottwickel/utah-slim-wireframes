@@ -60,6 +60,86 @@ section {
   padding: 10px;
 }
 
+.centered {
+  text-align: center;
+}
+
+button {
+  margin: 20px 10px;
+  padding: 6px 12px;
+  border: 1px solid black;
+  border-radius: 3px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+input {
+  font-size: 16px;
+  padding: 8px;
+}
+
+.label {
+  margin: 8px;
+  font-size: 16px;
+}
+
+.contact {
+  position: fixed;
+  border-radius: 50%;
+  font-size: 30px;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+}
+
+.top, .middle, .bottom {
+  right: 15px;
+}
+
+.bottom {
+  bottom: 15px;
+}
+
+.middle {
+  bottom: 75px;
+}
+
+.top {
+  bottom: 135px;
+}
+
+.white {
+  color: white;
+}
+
+.flex-video {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.flex-item {
+  width: 300px;
+  height: 200px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.performance {
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.map {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 10px;
+}
+
 @media only screen and (min-width: 769px) {
   .flex-area {
     display: flex;
