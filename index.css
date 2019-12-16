@@ -60,6 +60,11 @@ section {
   padding: 10px;
 }
 
+.comment {
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
 .centered {
   text-align: center;
 }
@@ -140,6 +145,23 @@ input {
   margin-bottom: 10px;
 }
 
+.textarea {
+  font-size: 16px;
+  padding: 10px;
+  height: 100px;
+  width: 300px;
+  resize: none;
+}
+
+.blogitem {
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+#blogtextarea {
+  height: 500px;
+}
+
 @media only screen and (min-width: 769px) {
   .flex-area {
     display: flex;
@@ -155,5 +177,8 @@ input {
   .navlink {
     display: inline-block;
     padding: 10px 20px;
+  }
+  .textarea {
+    width: 67%;
   }
 }

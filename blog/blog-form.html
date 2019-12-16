@@ -4,41 +4,33 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="../index.css">
   <title>UtahSlim(wireframe)</title>
 </head>
 <body>
   <nav class="low">
     <div class="nav-top">
-      <a href="index.html"><h1 class="high title">Utah Slim</h1></a>
+      <a href="../index.html"><h1 class="high title">Utah Slim</h1></a>
       <div class="login medium">
-        <a href="login.html" class="medium">Login</a>
-        <span> - </span>
-        <a href="register.html" class="medium">Register</a>
+        <a href="blog-main.html">Back to Articles</a>
       </div>
     </div>
   </nav>
   <main>
     <header>
-      <h2 class="high centered">Register</h2>
+      <h2 class="high centered">Write an Article</h2>
     </header>
     <section class="low">
-      <form id="login" action="index.html">
+      <form id="form" action="blog-main.html">
         <div class="centered">
-          <p class="label">Full Name:</p>
-          <input for="login" type="text">
-          <p class="label">Username:</p>
-          <input for="login" type="text">
-          <p class="label">Password:</p>
-          <input for="login" type="text">
-          <p class="label">Confirm Password:</p>
-          <input for="login" type="text">
-          <p class="label">Email:</p>
-          <input for="login" type="text">
-          <p class="label">Phone:</p>
-          <input for="login" type="text"><br />
-          <button for="login" class="medium" type="submit">Submit</button>
-          <button for="login" class="medium" type="submit">Cancel</button>
+          <p class="label">Subject:</p>
+          <input for="form" type="text">
+          <p class="label">Description:</p>
+          <input for="form" type="text">
+          <p class="label">Text:</p>
+          <textarea id="blogtextarea" for="form" class="textarea"></textarea><br />
+          <button for="form" class="medium" type="submit">Submit</button>
+          <button for="form" class="medium" type="submit">Cancel</button>
         </div>
       </form>
     </section>
